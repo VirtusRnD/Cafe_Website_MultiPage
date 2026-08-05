@@ -1,0 +1,129 @@
+/* 👑 Lora fontu (italik ve normal ağırlıklarıyla) eklendi, Martel Sans sabit bırakıldı */
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import "tailwindcss";
+@source "../src/config.js";
+
+@theme {
+  /* Cozy Kafe Renk Paleti */
+  --color-cafe-espresso: #3e2723;
+  --color-cafe-oat: #f9f6f0;
+  --color-cafe-latte: #e2cfb4;
+  --color-cafe-cinnamon: #c06c59;
+  --color-cafe-matcha: #8a9a86;
+  --color-cafe-caramel: #d4a373;
+
+  /* Font Ailesi */
+  /* 👑 Martel yerine Türkçe dostu Lora atandı */
+  --font-serif: "Lora", serif;
+  --font-sans: "Martel Sans", sans-serif;
+
+  --animate-bg-scroll: bg-scroll 40s linear infinite;
+  --animate-coffee-flow: coffee-flow 6s linear infinite;
+  --animate-wave-ripple: wave-ripple 3s linear infinite;
+}
+
+/* 👑 TERTEMİZ: Sadece Maske ve Animasyon Kalıbı */
+.coffee-stream {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' width='64' height='192' viewBox='0 0 32 192' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.0,0 L8.0,4 L9.5,8 L10.0,12 L9.5,16 L8.0,20 L6.0,24 L4.0,28 L2.5,32 L2.0,36 L2.5,40 L4.0,44 L6.0,48 L8.0,52 L9.5,56 L10.0,60 L9.5,64 L8.0,68 L6.0,72 L4.0,76 L2.5,80 L2.0,84 L2.5,88 L4.0,92 L6.0,96 L8.0,100 L9.5,104 L10.0,108 L9.5,112 L8.0,116 L6.0,120 L4.0,124 L2.5,128 L2.0,132 L2.5,136 L4.0,140 L6.0,144 L8.0,148 L9.5,152 L10.0,156 L9.5,160 L8.0,164 L6.0,168 L4.0,172 L2.5,176 L2.0,180 L2.5,184 L4.0,188 L6.0,192 L28.6,192 L27.8,188 L26.8,184 L25.6,180 L24.5,176 L23.6,172 L23.1,168 L23.0,164 L23.4,160 L24.2,156 L25.2,152 L26.4,148 L27.5,144 L28.4,140 L28.9,136 L29.0,132 L28.6,128 L27.8,124 L26.8,120 L25.6,116 L24.5,112 L23.6,108 L23.1,104 L23.0,100 L23.4,96 L24.2,92 L25.2,88 L26.4,84 L27.5,80 L28.4,76 L28.9,72 L29.0,68 L28.6,64 L27.8,60 L26.8,56 L25.6,52 L24.5,48 L23.6,44 L23.1,40 L23.0,36 L23.4,32 L24.2,28 L25.2,24 L26.4,20 L27.5,16 L28.4,12 L28.9,8 L29.0,4 L28.6,0 Z' fill='black'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' width='64' height='192' viewBox='0 0 32 192' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.0,0 L8.0,4 L9.5,8 L10.0,12 L9.5,16 L8.0,20 L6.0,24 L4.0,28 L2.5,32 L2.0,36 L2.5,40 L4.0,44 L6.0,48 L8.0,52 L9.5,56 L10.0,60 L9.5,64 L8.0,68 L6.0,72 L4.0,76 L2.5,80 L2.0,84 L2.5,88 L4.0,92 L6.0,96 L8.0,100 L9.5,104 L10.0,108 L9.5,112 L8.0,116 L6.0,120 L4.0,124 L2.5,128 L2.0,132 L2.5,136 L4.0,140 L6.0,144 L8.0,148 L9.5,152 L10.0,156 L9.5,160 L8.0,164 L6.0,168 L4.0,172 L2.5,176 L2.0,180 L2.5,184 L4.0,188 L6.0,192 L28.6,192 L27.8,188 L26.8,184 L25.6,180 L24.5,176 L23.6,172 L23.1,168 L23.0,164 L23.4,160 L24.2,156 L25.2,152 L26.4,148 L27.5,144 L28.4,140 L28.9,136 L29.0,132 L28.6,128 L27.8,124 L26.8,120 L25.6,116 L24.5,112 L23.6,108 L23.1,104 L23.0,100 L23.4,96 L24.2,92 L25.2,88 L26.4,84 L27.5,80 L28.4,76 L28.9,72 L29.0,68 L28.6,64 L27.8,60 L26.8,56 L25.6,52 L24.5,48 L23.6,44 L23.1,40 L23.0,36 L23.4,32 L24.2,28 L25.2,24 L26.4,20 L27.5,16 L28.4,12 L28.9,8 L29.0,4 L28.6,0 Z' fill='black'/%3E%3C/svg%3E");
+
+  -webkit-mask-size: 100% 192px;
+  mask-size: 100% 192px;
+  -webkit-mask-repeat: repeat-y;
+  mask-repeat: repeat-y;
+
+  animation: wave-flow-body 3s linear infinite;
+}
+
+@keyframes wave-flow-body {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 0 192px;
+    mask-position: 0 192px;
+  }
+}
+
+@keyframes bg-scroll {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 400px;
+  }
+}
+
+@keyframes wave-ripple {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* 👑 YENİ: Flip Kart İçin Utility Sınıfları */
+.perspective {
+  perspective: 1000px;
+}
+
+.group-hover\:rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-cafe-oat);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-cafe-cinnamon);
+  border-radius: 6px;
+  border: 3px solid var(--color-cafe-oat);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-cafe-espresso);
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-cafe-cinnamon) var(--color-cafe-oat);
+}
+
+/* Temel (Base) HTML ve Body Ayarları */
+body {
+  background-color: var(--color-cafe-oat);
+  color: var(--color-cafe-espresso);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

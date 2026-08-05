@@ -1,0 +1,214 @@
+{
+  "common": {
+    "home": "Ana Sayfa",
+    "ourStory": "Hikayemiz",
+    "reviews": "Yorumlar",
+    "menu": "Menü"
+  },
+  "seo": {
+    "title": "Lumière | Anı Yaşa",
+    "description": "Lumière'de özenle kavrulmuş nitelikli kahveler ve yerel malzemelerle hazırlanan mevsimlik taze lezzetleri keşfedin."
+  },
+  "hero": {
+    "titleMain": "ANI",
+    "titleItalic": "YAŞA",
+    "description": "Yerel malzemelerden ilham alan, özenle hazırlanan ve güzelce sunulan mevsimlik bir menü.",
+    "ctaText": "MENÜYÜ KEŞFET"
+  },
+  "home": {
+    "cards": {
+      "brew": {
+        "alt": "Lumière kafe",
+        "overline": "SİZİ AĞIRLAMAYA HAZIRIZ",
+        "titleBold": "her zaman için",
+        "titleLight": "bir demimiz var.",
+        "desc": "Lumière sadece harika bir kahve demek değil. Radikal olarak kapsayıcı bir kafe deneyimi sunuyoruz, sabah espresso'sundan akşamki şarap bardına kadar her şeyi sunuyoruz. Kafe kültürüne ilham alarak, yerel üreticilere ve sanatkarlara adanmış ve ekibimiz, müşterilerimiz ve topluluğumuz tarafından yönlendiriliyoruz.",
+        "button": "HİKAYEMİZE GÖZ AT"
+      },
+      "artisans": {
+        "alt": "Yerel malzemeler",
+        "overline": "YEREL & TAZE",
+        "titleBold": "Yerel üreticilerden",
+        "titleLight": "taze malzemeler.",
+        "desc": "Lumière'de her içecek ve her yemek, bölgenizin hikayesini anlatır. Tutkulu yerel çiftçiler ve sürdürülebilir üreticilerle iş birliği yaparak, en taze lezzetleri sizlere sunuyoruz."
+      },
+      "study": {
+        "alt": "Çalışma alanı",
+        "overline": "RAHAT & SESSİZ",
+        "titleBold": "Odaklanmak için",
+        "titleLight": "mükemmel bir yer.",
+        "desc": "Lumière, çalışmak ve ders çalışmak için huzurlu bir ortam sunar. Rahat oturma alanları ve sakin atmosferi ile görevlerinize kendinizi kaptırmanız için ideal bir yerdir.",
+        "button": "YORUMLARIMIZI GÖRÜNTÜLE"
+      }
+    }
+  },
+  "ourStory": {
+    "subtitle": "HİKAYEMİZ",
+    "titleOutline": "KAHVEYE",
+    "titleFilled": "yeni bir bakış",
+    "paragraphs": [
+      "Lumière'de bir yemeğin bir tariften çok daha fazlasını anlatabileceğine inanıyoruz.",
+      "Her şey nesilden nesile aktarılan geleneksel bir yaklaşımla başlar. Taze ot kokularının anıların bir parçası olduğu mutfaklardan ilham alan, özenle hazırlanmış bir hazırlık.",
+      "Orijinal tarif, LUMIÈRE'in kalbidir."
+    ]
+  },
+  "ourStoryHero": {
+    "titleMain": "BİZİM",
+    "titleItalic": "Hikayemiz",
+    "description": "Tutkuyla kavrulan kahve çekirdeklerinin tarladan fincanınıza uzanan eşsiz yolculuğu..."
+  },
+  "signatureMenu": {
+    "titleMain": "İmza",
+    "titleItalic": "Lezzetler",
+    "slides": [
+      "Gelenekleri modern dokunuşlarla yeniden yorumluyoruz. Klasikleri yaratıcılıkla harmanlayarak hazırladığımız imza içeceklerimizi keşfedin.",
+      "Yerel üreticilerden aldığımız taze meyvelerle hazırlanan, şurup içermeyen doğal ferahlığın tadına varın.",
+      "Özenle kavrulmuş çekirdeklerimizin, ustalarımızın ellerinde nasıl bir sanat eserine dönüştüğüne şahit olun.",
+      "Özel seramik fincanlarda servis edilen, yoğun aromalı ve yumuşak içimli spesiyal kahvelerimiz sizi bekliyor."
+    ]
+  },
+  "reviews": {
+    "overline": "KULAKTAN KULAĞA",
+    "title": "Müşterilerimizden Dinleyin",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Ayşe Yılmaz",
+        "image": "images/avatar-1.webp",
+        "rating": 4,
+        "note": "Lavender Latte hayatımda içtiğim en dengeli, en huzur verici kahveydi. Baristalar çok güler yüzlü."
+      },
+      {
+        "id": 2,
+        "name": "Mehmet Demir",
+        "image": "images/avatar-2.webp",
+        "rating": 4,
+        "note": "Espresso Blends gerçekten 'premium' hissettiriyor. İç mekan tasarımı çok samimi ama biraz kalabalıktı."
+      },
+      {
+        "id": 3,
+        "name": "Zeynep Kaya",
+        "image": "images/avatar-3.webp",
+        "rating": 5,
+        "note": "Croissant'lar sabah taze çıkmış, ılık ve çıtır çıtırdı. Lumière kahve ritüelimin vazgeçilmezi oldu."
+      },
+      {
+        "id": 4,
+        "name": "Can Özkan",
+        "image": "images/avatar-4.webp",
+        "rating": 3,
+        "note": "Cold Brew şişesi çok şık, tadı da güzeldi ama fiyatlar biraz daha uygun olabilirdi."
+      }
+    ]
+  },
+  "reviewsHero": {
+    "titleMain": "MÜŞTERİ",
+    "titleItalic": "Memnuniyeti",
+    "description": "Lumière'de bizimle anılarını paylaşan müşterilerimizin hikayelerini ve deneyimlerini okuyun."
+  },
+  "menuHero": {
+    "titleMain": "40 YILLIK",
+    "titleItalic": "Hatır",
+    "description": "Lumière'de hiç unutamayacağınız yudumları almaya kendinizi hazırlayın."
+  },
+  "menu": {
+    "overline": "MENÜ",
+    "dynamicTitles": {
+      "cafe": {
+        "italic": "Enfes",
+        "bold": "İÇECEKLER"
+      },
+      "pastries": {
+        "italic": "Gözde",
+        "bold": "ÜRÜNLERİMİZ"
+      },
+      "takeaway": {
+        "italic": "Evine",
+        "bold": "GÖTÜR"
+      }
+    },
+    "description": "Toma Café ve Hola Coffee'den nitelikli espresso. Törensel kalite matcha. Gerçek meyve, şurup yok.",
+    "tabs": [
+      { "id": "cafe", "label": "KAFE" },
+      { "id": "pastries", "label": "TATLI & TUZLU" },
+      { "id": "takeaway", "label": "AL GÖTÜR" }
+    ],
+    "items": {
+      "cafe": [
+        {
+          "groupName": "SICAK KAHVELER",
+          "products": [
+            {
+              "id": 1,
+              "name": "LATTE",
+              "description": "Kremamsı buharda pişmiş süt ve yumuşak latte art ile espresso. Dengeli, sıcak ve her an için doğru.",
+              "image": "images/latte.webp"
+            },
+            {
+              "id": 2,
+              "name": "CAPPUCCINO",
+              "description": "Kakao veya tarçın tozu ile kremamsı köpüğün altında cesur espresso. Klasik, zarif.",
+              "image": "images/cappuccino.webp"
+            }
+          ]
+        },
+        {
+          "groupName": "PREMIUM İÇECEKLER",
+          "products": [
+            {
+              "id": 3,
+              "name": "HİNDİSTAN CEVİZLİ MATCHA",
+              "description": "Kremamsı süt ile pürüzsüz, dengeli Japon matchası. Ferahlatıcı, narin ve mükemmel.",
+              "image": "images/coco-matcha.webp"
+            }
+          ]
+        }
+      ],
+      "pastries": [
+        {
+          "groupName": "TAZE PİŞMİŞ",
+          "products": [
+            {
+              "id": 4,
+              "name": "TEREYAĞLI KRUVASAN",
+              "description": "Pul pul, altın rengi ve saf Fransız tereyağı ile her sabah taze pişmiş.",
+              "image": "images/butter-croissant.webp"
+            }
+          ]
+        }
+      ],
+      "takeaway": [
+        {
+          "groupName": "AL GÖTÜR",
+          "products": [
+            {
+              "id": 5,
+              "name": "COLD BREW ŞİŞESİ",
+              "description": "Hareket halindeyken içmeye hazır, 12 saat demlenmiş imza harmanı.",
+              "image": "images/cold-brew.webp"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "overline": "BİZE KATILIN",
+    "titleOutline": "İSTANBUL'UN",
+    "titleFilled": "Her Yerindeyiz",
+    "addressTitle": "Mecidiyeköy Mah.",
+    "addressSubtitle": "İstanbul, Türkiye",
+    "openInMaps": "HARİTADA AÇ",
+    "hoursTitle": "SAATLER",
+    "phoneTitle": "TELEFON",
+    "emailTitle": "E-POSTA",
+    "ordersTitle": "SİPARİŞLER",
+    "followTitle": "BİZİ TAKİP EDİN",
+    "days": {
+      "weekdays": "Pzt - Cuma",
+      "wednesday": "Çarşamba",
+      "weekend": "Cmt & Pazar",
+      "closed": "Kapalı"
+    }
+  }
+}

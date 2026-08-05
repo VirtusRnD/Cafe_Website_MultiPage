@@ -1,0 +1,214 @@
+{
+  "common": {
+    "home": "Home",
+    "ourStory": "Our Story",
+    "reviews": "Reviews",
+    "menu": "Menu"
+  },
+  "seo": {
+    "title": "Lumière | Savor the Moment",
+    "description": "Discover carefully roasted specialty coffees and seasonal fresh flavors prepared with locally sourced ingredients at Lumière."
+  },
+  "hero": {
+    "titleMain": "SAVOR",
+    "titleItalic": "the MOMENT",
+    "description": "A seasonal menu inspired by locally sourced ingredients, thoughtfully prepared and beautifully served.",
+    "ctaText": "EXPLORE OUR MENU"
+  },
+  "home": {
+    "cards": {
+      "brew": {
+        "alt": "Lumière coffee cup",
+        "overline": "READY TO WELCOME",
+        "titleBold": "We have a brew",
+        "titleLight": "for every time of day.",
+        "desc": "Lumière serves more than just a great cup of coffee. We are a radically-inclusive café experience, serving everything from your morning espresso to your evening glass of wine. Inspired by the cafe culture, we are dedicated to local producers and artisans, and driven by our staff, customers, and community.",
+        "button": "LEARN ABOUT US"
+      },
+      "artisans": {
+        "alt": "Local ingredients",
+        "overline": "LOCAL & FRESH",
+        "titleBold": "High quality",
+        "titleLight": "ingredients.",
+        "desc": "Every sip and every bite at Lumière tells a story of our region. By partnering with passionate local farmers and sustainable producers, we ensure that you get the freshest flavors while supporting our community's growth."
+      },
+      "study": {
+        "alt": "Study area",
+        "overline": "COZY & QUIET",
+        "titleBold": "A perfect place",
+        "titleLight": "to focus.",
+        "desc": "Lumière offers a serene environment for studying and working. With comfortable seating and a tranquil atmosphere, it's the ideal spot to immerse yourself in your tasks.",
+        "button": "SEE OUR REVIEWS"
+      }
+    }
+  },
+  "ourStory": {
+    "subtitle": "OUR STORY",
+    "titleOutline": "A NEW",
+    "titleFilled": "perspective",
+    "paragraphs": [
+      "At Lumière we believe a meal can tell much more than a recipe.",
+      "It all starts with a traditional approach handed down from generation to generation. A simple, delicate and carefully crafted preparation, inspired by those kitchens where the smell of fresh herbs is part of the memories.",
+      "That original recipe is the heart of LUMIÈRE."
+    ]
+  },
+  "ourStoryHero": {
+    "titleMain": "OUR",
+    "titleItalic": "Story",
+    "description": "The unique journey of passionately roasted coffee beans from the farm to your cup..."
+  },
+  "signatureMenu": {
+    "titleMain": "Signature",
+    "titleItalic": "Blends",
+    "slides": [
+      "We reinterpret traditions with modern touches. Discover our signature drinks prepared by blending classics with creativity.",
+      "Enjoy the natural freshness prepared with fresh fruits sourced from local producers, containing absolutely no syrups.",
+      "Witness how our carefully roasted beans turn into a work of art in the hands of our master baristas.",
+      "Our specialty coffees with intense aroma and smooth taste, served in special ceramic cups, await you."
+    ]
+  },
+  "reviews": {
+    "overline": "WORD OF MOUTH",
+    "title": "Hear From Our Customers",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Ayşe Yılmaz",
+        "image": "images/avatar-1.webp",
+        "rating": 4,
+        "note": "Lavender Latte was the most balanced and soothing coffee I have ever had. Baristas are very smiling."
+      },
+      {
+        "id": 2,
+        "name": "Mehmet Demir",
+        "image": "images/avatar-2.webp",
+        "rating": 4,
+        "note": "Espresso Blends feels truly 'premium'. Interior design is very cozy but a bit crowded."
+      },
+      {
+        "id": 3,
+        "name": "Zeynep Kaya",
+        "image": "images/avatar-3.webp",
+        "rating": 5,
+        "note": "Croissants came out fresh in the morning, warm and crispy. Lumière became indispensable for my coffee ritual."
+      },
+      {
+        "id": 4,
+        "name": "Can Özkan",
+        "image": "images/avatar-4.webp",
+        "rating": 3,
+        "note": "Cold Brew bottle is very stylish, tasted good too but prices could be a bit more affordable."
+      }
+    ]
+  },
+  "reviewsHero": {
+    "titleMain": "CUSTOMER",
+    "titleItalic": "satisfaction",
+    "description": "Read the stories and experiences of those who shared their moments with us at Lumière."
+  },
+  "menuHero": {
+    "titleMain": "MEMORABLE",
+    "titleItalic": "Sips",
+    "description": "Prepare yourself to savor the unforgettable moments at Lumière."
+  },
+  "menu": {
+    "overline": "MENU",
+    "dynamicTitles": {
+      "cafe": {
+        "italic": "House",
+        "bold": "DRINKS"
+      },
+      "pastries": {
+        "italic": "Favorite",
+        "bold": "PASTRIES"
+      },
+      "takeaway": {
+        "italic": "Take",
+        "bold": "HOME"
+      }
+    },
+    "description": "Specialty espresso from Toma Café and Hola Coffee. Ceremonial-grade matcha. Real fruit, no syrups.",
+    "tabs": [
+      { "id": "cafe", "label": "CAFÉ" },
+      { "id": "pastries", "label": "PASTRIES" },
+      { "id": "takeaway", "label": "TAKE AWAY" }
+    ],
+    "items": {
+      "cafe": [
+        {
+          "groupName": "SPECIALTY COFFEE",
+          "products": [
+            {
+              "id": 1,
+              "name": "LATTE",
+              "description": "Espresso with creamy steamed milk and soft latte art. Balanced, warm, and right for any moment.",
+              "image": "images/latte.webp"
+            },
+            {
+              "id": 2,
+              "name": "CAPPUCCINO",
+              "description": "Bold espresso under a creamy foam with a dusting of cocoa or cinnamon. Classic, elegant.",
+              "image": "images/cappuccino.webp"
+            }
+          ]
+        },
+        {
+          "groupName": "PREMIUM DRINKS",
+          "products": [
+            {
+              "id": 3,
+              "name": "COCO MATCHA",
+              "description": "Smooth, well-balanced Japanese matcha with creamy milk. Refreshing, delicate, and perfect.",
+              "image": "images/coco-matcha.webp"
+            }
+          ]
+        }
+      ],
+      "pastries": [
+        {
+          "groupName": "FRESH BAKED",
+          "products": [
+            {
+              "id": 4,
+              "name": "BUTTER CROISSANT",
+              "description": "Flaky, golden, and baked fresh every morning with pure French butter.",
+              "image": "images/butter-croissant.webp"
+            }
+          ]
+        }
+      ],
+      "takeaway": [
+        {
+          "groupName": "GRAB & GO",
+          "products": [
+            {
+              "id": 5,
+              "name": "COLD BREW BOTTLE",
+              "description": "12-hour steeped signature blend, ready to drink on the move.",
+              "image": "images/cold-brew.webp"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "overline": "JOIN US",
+    "titleOutline": "FIND US IN",
+    "titleFilled": "Istanbul.",
+    "addressTitle": "Mecidiyeköy Mah.",
+    "addressSubtitle": "İstanbul, Turkey",
+    "openInMaps": "OPEN IN MAPS",
+    "hoursTitle": "HOURS",
+    "phoneTitle": "PHONE",
+    "emailTitle": "EMAIL",
+    "ordersTitle": "ORDERS",
+    "followTitle": "FOLLOW US",
+    "days": {
+      "weekdays": "Mon - Fri",
+      "wednesday": "Wednesday",
+      "weekend": "Sat & Sun",
+      "closed": "Closed"
+    }
+  }
+}
