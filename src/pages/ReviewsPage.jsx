@@ -34,7 +34,7 @@ const ReviewsPage = () => {
             className="absolute inset-0 bg-repeat animate-bg-scroll opacity-10 mix-blend-multiply"
             style={{
               backgroundImage:
-                "url('images/seamless-coffee-beans-pattern.png')",
+                "url('images/seamless-coffee-beans-pattern.webp')",
               backgroundSize: "500px",
             }}
           />
